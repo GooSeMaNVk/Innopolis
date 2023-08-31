@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>Задание</title>
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+    <div class="header">Задание</div>
+    <form>
+      <label class="text">Производитель:
+      <select name="device" class="colors">
+        <option value="1">Apple</option>
+        <option value="2">Google</option>
+        <option value="3">Nokia</option>
+        <option value="4">Samsung</option>
+        <option value="5">Xiaomi</option></label>
+      </select>
+   </form>
+    <form>
+      <label class="text">Цвет:
+      <select  name="color" class="colors" onchange="this.className=this.value">
+         <option class="default" value="default">Выберите цвет</option>
+         <option class="black" value="black"></option>
+         <option class="green" value="green"></option>
+         <option class="blue" value="blue"></option>
+         <option class="grey" value="grey"></option>
+         <option class="red" value="red"></option></label>
+      </select>
+    </form>
+    <form>
+      <label class="text">Подключить оператора:
+         <br>
+      </label>
+      <label class="op1">
+      <input type="radio" name="question" value="yes">
+      Beeline
+    </label>
+      <br>
+      <label class="op1">
+      <input type="radio" name="question" value="no">
+      Megafon
+    </label>
+    <br>
+    <label class="op1">
+    <input type="radio" name="question" value="no">
+    MTS
+  </label>
+  <br>
+  <label class="op1">
+  <input type="radio" name="question" value="no">
+  Не требуется
+</label>
+  </form>
+  <p>
+   <label class="text">Доставить ко времени: 
+   <input type="datetime-local" id="localdate" name="date" class="colors"/>
+</p></label>
+<form>
+   <label class="text">Чаевые курьеру: 
+   <input id="html" type="checkbox">
+   <input class="colors" type="text"> <label>%</label></label>
+</form>
+<a href="https://leonardo.osnova.io/b64733a4-4302-5344-9a02-61e27678bf23/-/preview/1200/-/format/webp/" class="btn">Отправить заказ</a>
+   </div>
+ </body>
+</html>
