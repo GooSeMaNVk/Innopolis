@@ -1,0 +1,67 @@
+html {
+    background-image: url(https://img.freepik.com/free-vector/abstract-watercolor-background_23-2149054089.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+   div.header {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(15, 14, 14);
+        
+    }
+    .text {font-weight: bold;
+        display: block;
+        margin: 10px;
+        margin-left: 30px;
+        color: rgb(6, 5, 5);
+          }
+    .default{background-color:rgb(248, 244, 244);
+        color: rgb(15, 14, 14);
+        outline: none;
+        border: 1px solid rgb(100, 100, 115);
+        border-radius: 6px;}
+    .black{background-color:black;
+        outline: none;
+        border: 1px solid rgb(100, 100, 115);
+        border-radius: 6px;}
+    .green{background-color:green;
+        outline: none;
+        border: 1px solid rgb(100, 100, 115);
+        border-radius: 6px;}
+    .blue{background-color:blue;
+        outline: none;
+        border: 1px solid rgb(100, 100, 115);
+        border-radius: 6px;}
+    .grey{background-color:grey;
+        outline: none;
+        border: 1px solid rgb(100, 100, 115);
+        border-radius: 6px;}
+    .red{background-color:red;
+        outline: none;
+        border: 1px solid rgb(100, 100, 115);
+        border-radius: 6px;}
+
+    .btn{font-weight: bold;
+            display: inline-block;
+            background: #8C959D;
+            color: #fff;
+            padding: 1rem 1.5rem; 
+            text-decoration: none; 
+            border-radius: 3px; 
+            margin: 50px auto;
+            margin-left: 40px;
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+           }
+    .op1 {color: rgb(12, 11, 11)}
+    .colors{outline: none;
+            border: 1px solid rgb(100, 100, 115);
+            border-radius: 6px;
+            background-color: rgb(239, 240, 241)
+
+    }
